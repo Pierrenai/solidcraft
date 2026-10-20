@@ -24,8 +24,8 @@ des dépendances dans LICENSES/ et THIRD_PARTY.md.
 Pour une copie de travail hors connexion, utiliser cargo vendor avec sa configuration indiquée
 avant de déconnecter la machine.
 
-Le modèle scripts/windows-workflow.yml.example configure les contrôles et la compilation Windows dans GitHub Actions.
-Pour l’activer, copier ce fichier dans .github/workflows/windows.yml et pousser avec une autorisation GitHub incluant workflow.
-Une fois activé, un tag v* publie également les fichiers dans une release GitHub.
+Le workflow .github/workflows/windows.yml vérifie le formatage, Clippy et les tests à chaque push sur main et à chaque pull request, puis produit un artefact Windows téléchargeable.
+Il peut également être déclenché manuellement depuis GitHub Actions.
+Un tag v* publie les fichiers dans une release GitHub.
 La compilation locale publiée utilise la chaîne Rust installée ; la CI utilise Rust stable.
 Les exécutables Windows ne sont pas signés numériquement.
