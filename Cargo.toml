@@ -1,0 +1,20 @@
+[package]
+name = "solidcraft"
+version = "0.3.0"
+edition = "2021"
+license = "GPL-3.0-only"
+repository = "https://github.com/Pierrenai/solidcraft"
+description = "Atelier de CAO mecanique en Rust"
+
+[dependencies]
+eframe = { version = "0.31.1", default-features = false, features = ["default_fonts", "glow", "persistence", "__screenshot"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+rfd = "0.16"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+
+[profile.dev]
+opt-level = 1

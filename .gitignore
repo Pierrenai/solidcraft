@@ -1,0 +1,12 @@
+/target/
+/node_modules/
+/dist/
+*.log
+/prototype-web/node_modules/
+/prototype-web/dist/
+
+/release/
+/*.exe
+/solidcraft-*-preview.png
+/solidcraft-preview.png
+/solidcraft-v02-*.png

@@ -1,0 +1,706 @@
+{
+  "format": "solidcraft-rust",
+  "version": 2,
+  "name": "Palier — assemblage de démonstration",
+  "bodies": [
+    {
+      "id": 1,
+      "name": "Platine arrondie",
+      "shape": {
+        "Feature": {
+          "Finish": {
+            "source": {
+              "id": 1,
+              "name": "Bloc 1",
+              "shape": {
+                "Box": {
+                  "width": 80.0,
+                  "depth": 50.0,
+                  "height": 8.0
+                }
+              },
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "holes": [],
+              "visible": true,
+              "color": [
+                195,
+                199,
+                205
+              ],
+              "reference": "P-0001",
+              "material": "",
+              "group": ""
+            },
+            "kind": "Fillet",
+            "size": 5.0
+          }
+        }
+      },
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "holes": [
+        {
+          "diameter": 6.0,
+          "x": -30.0,
+          "y": -15.0
+        },
+        {
+          "diameter": 6.0,
+          "x": 30.0,
+          "y": -15.0
+        },
+        {
+          "diameter": 6.0,
+          "x": -30.0,
+          "y": 15.0
+        },
+        {
+          "diameter": 6.0,
+          "x": 30.0,
+          "y": 15.0
+        },
+        {
+          "diameter": 20.0,
+          "x": 0.0,
+          "y": 0.0
+        }
+      ],
+      "visible": true,
+      "color": [
+        195,
+        199,
+        205
+      ],
+      "reference": "PLAT-001",
+      "material": "PLA / aluminium",
+      "group": ""
+    },
+    {
+      "id": 2,
+      "name": "Bague de guidage",
+      "shape": {
+        "Tube": {
+          "radius": 18.0,
+          "inner_radius": 10.0,
+          "height": 22.0
+        }
+      },
+      "position": [
+        0.0,
+        0.0,
+        8.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "holes": [],
+      "visible": true,
+      "color": [
+        155,
+        164,
+        179
+      ],
+      "reference": "BAG-001",
+      "material": "",
+      "group": ""
+    },
+    {
+      "id": 3,
+      "name": "Axe épaulé",
+      "shape": {
+        "Feature": {
+          "Revolve": {
+            "profile": {
+              "points": [
+                [
+                  0.0,
+                  0.0
+                ],
+                [
+                  9.0,
+                  0.0
+                ],
+                [
+                  9.0,
+                  43.0
+                ],
+                [
+                  13.0,
+                  43.0
+                ],
+                [
+                  13.0,
+                  48.0
+                ],
+                [
+                  0.0,
+                  48.0
+                ]
+              ],
+              "curves": [
+                "Line",
+                "Line",
+                "Line",
+                "Line",
+                "Line",
+                "Line"
+              ],
+              "constraints": []
+            },
+            "angle": 360.0
+          }
+        }
+      },
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "holes": [],
+      "visible": true,
+      "color": [
+        113,
+        141,
+        181
+      ],
+      "reference": "AXE-001",
+      "material": "",
+      "group": ""
+    },
+    {
+      "id": 4,
+      "name": "Fixation (simplifiée)",
+      "shape": {
+        "Feature": {
+          "Revolve": {
+            "profile": {
+              "points": [
+                [
+                  0.0,
+                  -12.0
+                ],
+                [
+                  2.5,
+                  -12.0
+                ],
+                [
+                  2.5,
+                  8.0
+                ],
+                [
+                  5.0,
+                  8.0
+                ],
+                [
+                  5.0,
+                  12.0
+                ],
+                [
+                  0.0,
+                  12.0
+                ]
+              ],
+              "curves": [
+                "Line",
+                "Line",
+                "Line",
+                "Line",
+                "Line",
+                "Line"
+              ],
+              "constraints": []
+            },
+            "angle": 360.0
+          }
+        }
+      },
+      "position": [
+        -30.0,
+        -15.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "holes": [],
+      "visible": true,
+      "color": [
+        67,
+        91,
+        171
+      ],
+      "reference": "FIX-001",
+      "material": "",
+      "group": ""
+    },
+    {
+      "id": 5,
+      "name": "Fixation (simplifiée)",
+      "shape": {
+        "Feature": {
+          "Revolve": {
+            "profile": {
+              "points": [
+                [
+                  0.0,
+                  -12.0
+                ],
+                [
+                  2.5,
+                  -12.0
+                ],
+                [
+                  2.5,
+                  8.0
+                ],
+                [
+                  5.0,
+                  8.0
+                ],
+                [
+                  5.0,
+                  12.0
+                ],
+                [
+                  0.0,
+                  12.0
+                ]
+              ],
+              "curves": [
+                "Line",
+                "Line",
+                "Line",
+                "Line",
+                "Line",
+                "Line"
+              ],
+              "constraints": []
+            },
+            "angle": 360.0
+          }
+        }
+      },
+      "position": [
+        30.0,
+        -15.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "holes": [],
+      "visible": true,
+      "color": [
+        67,
+        91,
+        171
+      ],
+      "reference": "FIX-001",
+      "material": "",
+      "group": ""
+    },
+    {
+      "id": 6,
+      "name": "Fixation (simplifiée)",
+      "shape": {
+        "Feature": {
+          "Revolve": {
+            "profile": {
+              "points": [
+                [
+                  0.0,
+                  -12.0
+                ],
+                [
+                  2.5,
+                  -12.0
+                ],
+                [
+                  2.5,
+                  8.0
+                ],
+                [
+                  5.0,
+                  8.0
+                ],
+                [
+                  5.0,
+                  12.0
+                ],
+                [
+                  0.0,
+                  12.0
+                ]
+              ],
+              "curves": [
+                "Line",
+                "Line",
+                "Line",
+                "Line",
+                "Line",
+                "Line"
+              ],
+              "constraints": []
+            },
+            "angle": 360.0
+          }
+        }
+      },
+      "position": [
+        -30.0,
+        15.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "holes": [],
+      "visible": true,
+      "color": [
+        67,
+        91,
+        171
+      ],
+      "reference": "FIX-001",
+      "material": "",
+      "group": ""
+    },
+    {
+      "id": 7,
+      "name": "Fixation (simplifiée)",
+      "shape": {
+        "Feature": {
+          "Revolve": {
+            "profile": {
+              "points": [
+                [
+                  0.0,
+                  -12.0
+                ],
+                [
+                  2.5,
+                  -12.0
+                ],
+                [
+                  2.5,
+                  8.0
+                ],
+                [
+                  5.0,
+                  8.0
+                ],
+                [
+                  5.0,
+                  12.0
+                ],
+                [
+                  0.0,
+                  12.0
+                ]
+              ],
+              "curves": [
+                "Line",
+                "Line",
+                "Line",
+                "Line",
+                "Line",
+                "Line"
+              ],
+              "constraints": []
+            },
+            "angle": 360.0
+          }
+        }
+      },
+      "position": [
+        30.0,
+        15.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "holes": [],
+      "visible": true,
+      "color": [
+        67,
+        91,
+        171
+      ],
+      "reference": "FIX-001",
+      "material": "",
+      "group": ""
+    }
+  ],
+  "assembly": {
+    "fixed": [
+      1
+    ],
+    "mates": [
+      {
+        "a": 1,
+        "b": 2,
+        "kind": "Coincident",
+        "anchor_a": [
+          0.0,
+          0.0,
+          8.0
+        ],
+        "anchor_b": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "axis_a": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "axis_b": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "value": 0.0
+      },
+      {
+        "a": 1,
+        "b": 3,
+        "kind": "Coincident",
+        "anchor_a": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "anchor_b": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "axis_a": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "axis_b": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "value": 0.0
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "kind": "Coincident",
+        "anchor_a": [
+          -30.0,
+          -15.0,
+          0.0
+        ],
+        "anchor_b": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "axis_a": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "axis_b": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "value": 0.0
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "kind": "Coincident",
+        "anchor_a": [
+          30.0,
+          -15.0,
+          0.0
+        ],
+        "anchor_b": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "axis_a": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "axis_b": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "value": 0.0
+      },
+      {
+        "a": 1,
+        "b": 6,
+        "kind": "Coincident",
+        "anchor_a": [
+          -30.0,
+          15.0,
+          0.0
+        ],
+        "anchor_b": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "axis_a": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "axis_b": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "value": 0.0
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "kind": "Coincident",
+        "anchor_a": [
+          30.0,
+          15.0,
+          0.0
+        ],
+        "anchor_b": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "axis_a": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "axis_b": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "value": 0.0
+      }
+    ],
+    "explode": [
+      {
+        "body": 1,
+        "delta": [
+          0.0,
+          0.0,
+          -45.0
+        ]
+      },
+      {
+        "body": 2,
+        "delta": [
+          0.0,
+          0.0,
+          45.0
+        ]
+      },
+      {
+        "body": 3,
+        "delta": [
+          0.0,
+          0.0,
+          45.0
+        ]
+      },
+      {
+        "body": 4,
+        "delta": [
+          -35.46496828075953,
+          -17.732484140379764,
+          -21.27898096845572
+        ]
+      },
+      {
+        "body": 5,
+        "delta": [
+          35.46496828075953,
+          -17.732484140379764,
+          -21.27898096845572
+        ]
+      },
+      {
+        "body": 6,
+        "delta": [
+          -35.46496828075953,
+          17.732484140379764,
+          -21.27898096845572
+        ]
+      },
+      {
+        "body": 7,
+        "delta": [
+          35.46496828075953,
+          17.732484140379764,
+          -21.27898096845572
+        ]
+      }
+    ]
+  },
+  "drawing": {
+    "title": "",
+    "author": "Atelier SolidCraft",
+    "revision": "A",
+    "scale": 0.65,
+    "show_hidden": true,
+    "auto_dimensions": true,
+    "tolerance": 0.0,
+    "section": false,
+    "section_z": 4.0,
+    "detail": false,
+    "detail_center": [
+      0.0,
+      0.0
+    ],
+    "detail_scale": 2.0,
+    "dimensions": []
+  }
+}

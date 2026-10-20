@@ -1,0 +1,92 @@
+{
+  "format": "solidcraft-rust",
+  "version": 2,
+  "name": "03-Coque",
+  "bodies": [
+    {
+      "id": 1,
+      "name": "Coque ouverte 1",
+      "shape": {
+        "Feature": {
+          "Shell": {
+            "source": {
+              "id": 1,
+              "name": "Bloc 1",
+              "shape": {
+                "Box": {
+                  "width": 60.0,
+                  "depth": 40.0,
+                  "height": 25.0
+                }
+              },
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "holes": [],
+              "visible": true,
+              "color": [
+                195,
+                199,
+                205
+              ],
+              "reference": "P-0001",
+              "material": "",
+              "group": ""
+            },
+            "thickness": 2.5
+          }
+        }
+      },
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "holes": [],
+      "visible": true,
+      "color": [
+        195,
+        199,
+        205
+      ],
+      "reference": "P-0001",
+      "material": "",
+      "group": ""
+    }
+  ],
+  "assembly": {
+    "fixed": [],
+    "mates": [],
+    "explode": []
+  },
+  "drawing": {
+    "title": "",
+    "author": "",
+    "revision": "A",
+    "scale": 1.0,
+    "show_hidden": true,
+    "auto_dimensions": true,
+    "tolerance": 0.0,
+    "section": false,
+    "section_z": 4.0,
+    "detail": false,
+    "detail_center": [
+      0.0,
+      0.0
+    ],
+    "detail_scale": 2.0,
+    "dimensions": []
+  }
+}

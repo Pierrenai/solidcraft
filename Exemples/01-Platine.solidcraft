@@ -1,0 +1,119 @@
+{
+  "format": "solidcraft-rust",
+  "version": 2,
+  "name": "Platine à congés et perçages",
+  "bodies": [
+    {
+      "id": 1,
+      "name": "Platine arrondie",
+      "shape": {
+        "Feature": {
+          "Finish": {
+            "source": {
+              "id": 1,
+              "name": "Bloc 1",
+              "shape": {
+                "Box": {
+                  "width": 80.0,
+                  "depth": 50.0,
+                  "height": 8.0
+                }
+              },
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "holes": [],
+              "visible": true,
+              "color": [
+                195,
+                199,
+                205
+              ],
+              "reference": "P-0001",
+              "material": "",
+              "group": ""
+            },
+            "kind": "Fillet",
+            "size": 5.0
+          }
+        }
+      },
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "holes": [
+        {
+          "diameter": 6.0,
+          "x": -30.0,
+          "y": -15.0
+        },
+        {
+          "diameter": 6.0,
+          "x": 30.0,
+          "y": -15.0
+        },
+        {
+          "diameter": 6.0,
+          "x": -30.0,
+          "y": 15.0
+        },
+        {
+          "diameter": 6.0,
+          "x": 30.0,
+          "y": 15.0
+        },
+        {
+          "diameter": 20.0,
+          "x": 0.0,
+          "y": 0.0
+        }
+      ],
+      "visible": true,
+      "color": [
+        195,
+        199,
+        205
+      ],
+      "reference": "PLAT-001",
+      "material": "PLA / aluminium",
+      "group": ""
+    }
+  ],
+  "assembly": {
+    "fixed": [],
+    "mates": [],
+    "explode": []
+  },
+  "drawing": {
+    "title": "PLAT-001 — PLATINE DE SUPPORT",
+    "author": "Atelier SolidCraft",
+    "revision": "A",
+    "scale": 1.0,
+    "show_hidden": true,
+    "auto_dimensions": true,
+    "tolerance": 0.2,
+    "section": false,
+    "section_z": 4.0,
+    "detail": true,
+    "detail_center": [
+      0.0,
+      4.0
+    ],
+    "detail_scale": 2.0,
+    "dimensions": []
+  }
+}

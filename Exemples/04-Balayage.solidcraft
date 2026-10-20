@@ -1,0 +1,125 @@
+{
+  "format": "solidcraft-rust",
+  "version": 2,
+  "name": "04-Balayage",
+  "bodies": [
+    {
+      "id": 1,
+      "name": "Balayage 1",
+      "shape": {
+        "Feature": {
+          "Sweep": {
+            "profile": {
+              "points": [
+                [
+                  4.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  4.0
+                ],
+                [
+                  -4.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  -4.0
+                ]
+              ],
+              "curves": [
+                {
+                  "Arc": {
+                    "bulge": 0.41421356237309503
+                  }
+                },
+                {
+                  "Arc": {
+                    "bulge": 0.41421356237309503
+                  }
+                },
+                {
+                  "Arc": {
+                    "bulge": 0.41421356237309503
+                  }
+                },
+                {
+                  "Arc": {
+                    "bulge": 0.41421356237309503
+                  }
+                }
+              ],
+              "constraints": []
+            },
+            "path": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                25.0
+              ],
+              [
+                10.0,
+                0.0,
+                40.0
+              ],
+              [
+                30.0,
+                0.0,
+                45.0
+              ]
+            ]
+          }
+        }
+      },
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "holes": [],
+      "visible": true,
+      "color": [
+        195,
+        199,
+        205
+      ],
+      "reference": "P-0001",
+      "material": "",
+      "group": ""
+    }
+  ],
+  "assembly": {
+    "fixed": [],
+    "mates": [],
+    "explode": []
+  },
+  "drawing": {
+    "title": "",
+    "author": "",
+    "revision": "A",
+    "scale": 1.0,
+    "show_hidden": true,
+    "auto_dimensions": true,
+    "tolerance": 0.0,
+    "section": false,
+    "section_z": 4.0,
+    "detail": false,
+    "detail_center": [
+      0.0,
+      0.0
+    ],
+    "detail_scale": 2.0,
+    "dimensions": []
+  }
+}

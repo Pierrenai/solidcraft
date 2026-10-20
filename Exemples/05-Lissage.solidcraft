@@ -1,0 +1,199 @@
+{
+  "format": "solidcraft-rust",
+  "version": 2,
+  "name": "05-Lissage",
+  "bodies": [
+    {
+      "id": 1,
+      "name": "Lissage 1",
+      "shape": {
+        "Feature": {
+          "Loft": {
+            "sections": [
+              {
+                "profile": {
+                  "points": [
+                    [
+                      -17.5,
+                      -14.0
+                    ],
+                    [
+                      17.5,
+                      -14.0
+                    ],
+                    [
+                      17.5,
+                      14.0
+                    ],
+                    [
+                      -17.5,
+                      14.0
+                    ]
+                  ],
+                  "curves": [
+                    "Line",
+                    "Line",
+                    "Line",
+                    "Line"
+                  ],
+                  "constraints": []
+                },
+                "z": 0.0,
+                "offset": [
+                  0.0,
+                  0.0
+                ],
+                "twist": 0.0
+              },
+              {
+                "profile": {
+                  "points": [
+                    [
+                      12.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      12.0
+                    ],
+                    [
+                      -12.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      -12.0
+                    ]
+                  ],
+                  "curves": [
+                    {
+                      "Arc": {
+                        "bulge": 0.41421356237309503
+                      }
+                    },
+                    {
+                      "Arc": {
+                        "bulge": 0.41421356237309503
+                      }
+                    },
+                    {
+                      "Arc": {
+                        "bulge": 0.41421356237309503
+                      }
+                    },
+                    {
+                      "Arc": {
+                        "bulge": 0.41421356237309503
+                      }
+                    }
+                  ],
+                  "constraints": []
+                },
+                "z": 30.0,
+                "offset": [
+                  0.0,
+                  0.0
+                ],
+                "twist": 10.0
+              },
+              {
+                "profile": {
+                  "points": [
+                    [
+                      8.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      8.0
+                    ],
+                    [
+                      -8.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      -8.0
+                    ]
+                  ],
+                  "curves": [
+                    {
+                      "Arc": {
+                        "bulge": 0.41421356237309503
+                      }
+                    },
+                    {
+                      "Arc": {
+                        "bulge": 0.41421356237309503
+                      }
+                    },
+                    {
+                      "Arc": {
+                        "bulge": 0.41421356237309503
+                      }
+                    },
+                    {
+                      "Arc": {
+                        "bulge": 0.41421356237309503
+                      }
+                    }
+                  ],
+                  "constraints": []
+                },
+                "z": 45.0,
+                "offset": [
+                  0.0,
+                  0.0
+                ],
+                "twist": 10.0
+              }
+            ]
+          }
+        }
+      },
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "holes": [],
+      "visible": true,
+      "color": [
+        195,
+        199,
+        205
+      ],
+      "reference": "P-0001",
+      "material": "",
+      "group": ""
+    }
+  ],
+  "assembly": {
+    "fixed": [],
+    "mates": [],
+    "explode": []
+  },
+  "drawing": {
+    "title": "",
+    "author": "",
+    "revision": "A",
+    "scale": 1.0,
+    "show_hidden": true,
+    "auto_dimensions": true,
+    "tolerance": 0.0,
+    "section": false,
+    "section_z": 4.0,
+    "detail": false,
+    "detail_center": [
+      0.0,
+      0.0
+    ],
+    "detail_scale": 2.0,
+    "dimensions": []
+  }
+}
